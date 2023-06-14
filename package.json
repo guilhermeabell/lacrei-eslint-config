@@ -1,0 +1,50 @@
+{
+  "name": "@guilhermeabell/lacrei-eslint-config",
+  "version": "0.1.0",
+  "description": "Default ESLint config",
+  "license": "UNLICENSED",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermeabell/lacrei-eslint-config"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./base": "./lib/base.js"
+  },
+  "engines": {
+    "node": "^18.0.0",
+    "npm": "^9.0.0"
+  },
+  "peerDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^10.0.3",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8"
+  },
+  "prettier": "@lacrei/prettier-config",
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  },
+  "scripts": {
+    "lint": "eslint --cache --fix ."
+  }
+}
