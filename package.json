@@ -46,6 +46,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint --cache --fix ."
+    "lint": "eslint --cache --fix .",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run"
   }
 }
