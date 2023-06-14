@@ -29,4 +29,4 @@ jobs:
       - name: Release
         run: npm run release
         env:
-          GITHUB_TOKEN: ${{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}}
+          GITHUB_TOKEN: ${{secrets.TOKEN}}
