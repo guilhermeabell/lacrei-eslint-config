@@ -1,6 +1,6 @@
 {
   "name": "@guilhermeabell/lacrei-eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Default ESLint config",
   "license": "UNLICENSED",
   "main": "./lib/index.js",
@@ -45,6 +45,7 @@
     "*.js": "eslint --cache --fix"
   },
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint --cache --fix ."
   }
 }
