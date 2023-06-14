@@ -2,10 +2,10 @@ name: Lacrei-eslint-config Publish
 on:
   pull_request:
     branches:
-      - master
+      - main
   push:
     branches:
-      - master
+      - main
 jobs:
   publish-lacrei-eslint-config:
     runs-on: ubuntu-latest
