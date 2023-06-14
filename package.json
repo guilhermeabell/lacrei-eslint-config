@@ -36,16 +36,10 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8"
   },
   "prettier": "@lacrei/prettier-config",
-  "lint-staged": {
-    "*.js": "eslint --cache --fix"
-  },
   "scripts": {
-    "prepare": "husky install",
     "lint": "eslint --cache --fix .",
     "release": "semantic-release",
     "release:dry": "semantic-release --dry-run"
