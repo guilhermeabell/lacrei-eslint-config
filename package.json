@@ -15,10 +15,6 @@
     ".": "./lib/index.js",
     "./base": "./lib/base.js"
   },
-  "engines": {
-    "node": "^18.0.0",
-    "npm": "^9.0.0"
-  },
   "peerDependencies": {
     "@babel/eslint-parser": "^7.21.3",
     "eslint": "^8.39.0",
