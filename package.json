@@ -1,6 +1,6 @@
 {
   "name": "@guilhermeabell/lacrei-eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Default ESLint config",
   "license": "UNLICENSED",
   "main": "./lib/index.js",
